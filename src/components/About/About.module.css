@@ -1,0 +1,103 @@
+/* About Page Styling */
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* Title Styling */
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Sections */
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* Text Styling */
+.about-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* List Styling */
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  font-size: 1.1rem;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-list li:hover {
+  background: #e9ecef;
+  transform: translateX(5px);
+}
+
+/* Technology List Grid */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.tech-list {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tech-list:hover {
+  background: #e3e3e3;
+  transform: scale(1.05);
+}
+
+/* Safety Measures */
+.safety-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.safety-list li {
+  padding: 10px;
+  border-left: 5px solid #28a745;
+  background: #f0f9f3;
+}
+
+/* Footer */
+.about-footer {
+  text-align: center;
+  font-size: 1rem;
+  color: #777;
+  margin-top: 30px;
+}
