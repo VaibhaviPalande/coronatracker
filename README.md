@@ -30,13 +30,13 @@ A **responsive and real-time COVID-19 Tracker** built using **React.js** and **C
 _Add project images here. Save images inside a `screenshots` folder and reference them like this:_
 
 ### **Homepage**  
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/s1.png)
 
 ### **Global Data Chart**  
-![Global Chart](screenshots/global_chart.png)
+![Global Chart](screenshots/s2.png)
 
 ### **Country-wise Data**  
-![Country Data](screenshots/country_data.png)
+![Country Data](screenshots/s3.png)
 
 ---
 
