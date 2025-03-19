@@ -7,7 +7,7 @@ import {fetchData} from './api'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar/Navbar";
 import coronaImage from './images/covid19_teaser2.webp';
-import About from './components/About/About';
+
 
 
 
@@ -44,7 +44,7 @@ class App extends React.Component{
         <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange}/>
         <Chart data={data} country={country}/>
-        <About/>
+      
       </div>
       </>
     )
